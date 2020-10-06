@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+}
+
+.datosPersonajes {
+    margin-top: 140px;
+    margin-bottom: 60px;
+}

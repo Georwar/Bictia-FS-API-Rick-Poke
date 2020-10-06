@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>PokeAPI</title>
+</head>
+
+<body>
+    <div class="header position-relative">
+        <header class="bg-dark text-center text-light">
+            <h1>Personajes Pokemon por Jorge Fontecha</h1>
+            <ul id="paginacion" class="pagination"></ul>
+        </header>
+    </div>
+
+    <!-- Contenido de personajes -->
+
+    <div class="container position-relative">
+        <div id="datosPersonajes" class="row datosPersonajes position-absolute"></div>
+    </div>
+
+    <script src="assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/getPokeAPI.js"></script>
+</body>
+
+</html>
